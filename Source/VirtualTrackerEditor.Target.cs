@@ -10,6 +10,6 @@ public class VirtualTrackerEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
-		ExtraModuleNames.Add("VirtualTracker");
+		ExtraModuleNames.AddRange(new string[] { "VirtualTracker", "VirtualCustomizer" });
 	}
 }

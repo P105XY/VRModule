@@ -2,13 +2,13 @@
 
 using UnrealBuildTool;
 
-public class VirtualTracker : ModuleRules
+public class VirtualCustomizer : ModuleRules
 {
-	public VirtualTracker(ReadOnlyTargetRules Target) : base(Target)
+	public VirtualCustomizer(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "UMG" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "UMG", "VirtualTracker" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

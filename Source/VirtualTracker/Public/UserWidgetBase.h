@@ -7,7 +7,7 @@
 #include "UserWidgetBase.generated.h"
 
 /**
- * 
+ * userWidget을 상속받는 클래스에서 사용할 기본 클래스.
  */
 UCLASS()
 class VIRTUALTRACKER_API UUserWidgetBase : public UUserWidget
